@@ -60,7 +60,7 @@ If you encounter any issues or have feedback, please reach out via our official 
 Enjoy your trading experience with Paper Traide!
 
 ## Known Issue :
-If you are unable to see the extension on your screen press "shift+control+R" 
+If you are unable to see the extension on your screen press "shift+control+R" and make sure you are *watching* a coin. Currently we only support neo bullx
 
 ## Roadmap
 
