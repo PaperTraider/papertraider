@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "PaPer TrAider",
+  "version": "1.0",
+  "description": "A paper trading tool for degens.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://neo.bullx.io/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://neo.bullx.io/terminal?chainId=1399811149&address=*",
+      "https://photon-sol.tinyastro.io/en/lp/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
